@@ -34,9 +34,3 @@ import ImageCryptography
 To extend Paillier for image encryption, we use the `Paillier.Encrypt` function to encrypt each pixel in our image, the image decryption function behaves similarly. <br/>
 To show homomorphic image editing is possible, we have implemented a simple brightness function which makes use of Paillier's homomorphic constant addition to add a brightness factor to each pixel of the encrypted image. <br/>
 In order to store encrypted image objects we use the built-in python module `pickle` which serialises the encrypted image object and stores it as a file.
-
-#### Developers
-* [Aniket Das](https://github.com/chronarchitect)
-* [Akarsh Srivastava](https://github.com/heisenberg42) 
-* Kanishka Gupta
-* [Somdatta Mukherjee](https://github.com/SomdattaMukherjee/)
